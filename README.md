@@ -1,17 +1,3 @@
-# ST++
-
-This is the official PyTorch implementation of our CVPR 2022 paper:
-
-> [**ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation**](https://arxiv.org/abs/2106.05095)       
-> Lihe Yang, Wei Zhuo, Lei Qi, Yinghuan Shi, Yang Gao        
-> *In Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
-
-We have another simple yet stronger end-to-end framework **UniMatch** accepted by CVPR 2023:
-
-> **[Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation](https://arxiv.org/abs/2208.09910)** [[Code](https://github.com/LiheYoung/UniMatch)]</br>
-> Lihe Yang, Lei Qi, Litong Feng, Wayne Zhang, Yinghuan Shi</br>
-> *In Conference on Computer Vision and Pattern Recognition (CVPR), 2023*
-
 ## Getting Started
 
 ### Data Preparation
@@ -55,8 +41,12 @@ CUDA_VISIBLE_DEVICES=0,1 python -W ignore main.py \
   --pseudo-mask-path outdir/pseudo_masks/$semi_setting \
   --save-path outdir/models/$semi_setting
 ```
-This script is for our ST framework. To run ST++, add ```--plus --reliable-id-path outdir/reliable_ids/$semi_setting```.
+This script is for ST framework. To run ST++, add ```--plus --reliable-id-path outdir/reliable_ids/$semi_setting```.
 
+PyTorch implementation OF CVPR 2022 paper:
+> [**ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation**](https://arxiv.org/abs/2106.05095)       
+> Lihe Yang, Wei Zhuo, Lei Qi, Yinghuan Shi, Yang Gao        
+> *In Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
 
 ## Acknowledgement
 
