@@ -1,0 +1,12 @@
+Self-Training for Semi-Supervised Semantic Segmentation"
+
+II. Project Introduction
+Objective:
+This project focuses on developing a semi-supervised approach for semantic segmentation using self-training. The aim is to leverage unlabeled data to improve the segmentation performance of models trained with limited labeled data, an increasingly relevant issue in real-world applications where manual labeling is costly and time-consuming. Self-training can help exploit large datasets while reducing human annotation costs.
+
+Motivation:
+In semantic segmentation, obtaining a sufficient amount of labeled data is often a bottleneck, especially in fields like medical imaging and autonomous driving. Semi-supervised learning offers a solution by utilizing both labeled and unlabeled data. The key motivation behind this project is to refine self-training methodologies by addressing confirmation bias—a common problem where the model increasingly reinforces its own incorrect predictions during training on pseudo-labeled data. By implementing more efficient strategies to mitigate this bias, the project aims to improve both accuracy and generalization in segmentation tasks.
+
+III. Dataset Description
+Pascal VOC 2012, Cityscapes
+
